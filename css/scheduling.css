@@ -1,0 +1,162 @@
+.schedule{
+	width:1002px;
+	height:426px;
+	margin: 0 auto 110px;
+	position: relative;
+}
+.schedule-title{
+	padding-bottom:17px;
+}
+.schedule-title span:nth-of-type(1){
+	font-size: 18px;
+	margin:0 15px 0 8px;
+	color:#000;
+}
+.schedule-title span:nth-of-type(2) a{
+	font-size: 16px;
+	color:#01aff1;
+}
+.schedule > div:nth-of-type(2){
+	width:100%;
+	height:326px;
+}
+.schedule-table{
+	width:732px;
+	height:326px;
+	display: inline-block;
+	float:left;
+	position: absolute;
+}
+.schedule-table > div:nth-of-type(1){
+	width:36px;
+	height:100%;
+	display: inline-block;
+	position: absolute;
+}
+.schedule-table > div:nth-of-type(1) > div{
+	height:93px;
+	line-height: 93px;
+	text-align: center;
+	background-color:#f1f9ff; 
+	border-left:1px solid #dadfdd;
+}
+.schedule-table > div:nth-of-type(1) > div:nth-of-type(1){
+	height:47px;
+	line-height: 47px;
+	background: url("../pic/icon-scheduling-left.jpg");
+}
+.schedule-table > div:nth-of-type(1) > div:nth-of-type(4){
+	border-bottom:1px solid #dadfdd;
+	height:92px;
+}
+.schedule-table > div:nth-of-type(2){
+	width:660px;
+	height:100%;
+	display: inline-block;
+	position: absolute;
+	left:36px;
+}
+.schedule-table-content{
+	width:100%;
+	height:100%;
+	position: relative;
+	overflow:hidden;
+}
+.schedule-table-content > div{
+	width:1330px;
+	height:100%;
+	position: absolute;
+}
+.schedule-table-content > div > div{
+	width:94px;
+	height:100%;
+	display: inline-block;
+	float: left; 
+}
+.schedule-table-content > div > div > div{
+	height:92px;
+	text-align: center;
+	line-height: 94px;
+	font-size: 14px;
+	border-left: 1px solid #dadfdd;
+	border-top: 1px solid #dadfdd;
+}
+.schedule-table-content > div > div > div:nth-of-type(1){
+	height:45px;
+	line-height: 22px;
+}
+.schedule-table-content > div > div > div:nth-of-type(3){
+	background-color:#e0effd; 
+	color:#47b7fe;
+}
+.schedule-table-content > div > div > div:nth-of-type(4){
+	border-bottom: 1px solid #dadfdd;
+}
+.schedule-table-content > div > div:nth-of-type(14) >div{
+	border-right:1px solid #dadfdd;
+}
+.schedule-table > div:nth-of-type(3){
+	width:36px;
+	height:325px;
+	display: inline-block;
+	position: absolute;
+	left:696px;
+	border-right:1px solid #dadfdd;
+	border-bottom:1px solid #dadfdd;
+}
+.schedule-table > div:nth-of-type(3) > div:nth-of-type(1){
+	height:47px;
+	background: url("../pic/icon-scheduling-right.jpg");
+}
+.schedule-rule{
+	width:270px;
+	height:324px;
+	float:right;
+	overflow:scroll;
+	position: relative;
+	border-top:1px solid #dadfdd;
+	border-right:1px solid #dadfdd;
+	border-bottom:1px solid #dadfdd;
+}
+.schedule-rule h3{
+	font-size: 17px;
+	margin-top:22px;
+	margin-left:10px;
+}
+.schedule-rule p{
+	margin-left:10px;
+	margin-top:5px;
+}
+.schedule-rule p:nth-of-type(1){
+	margin-top:10px;
+}
+.schedule-rule p > span{
+	color:#8a8a8a;
+	line-height: 16px;
+	font-size: 14px;
+}
+.schedule-rule p > span:nth-of-type(1){
+	color:#555;
+	line-height: 16px;
+	font-size: 14px;
+}
+
+
+
+.schedule-tip{
+	width:1000px;
+	height:59px;
+	font-size:17px;
+	line-height: 59px;
+	text-align: center;
+	border-right:1px solid #dadfdd;
+	border-left:1px solid #dadfdd;
+	border-bottom:1px solid #dadfdd;
+}
+
+.exclamatoryMark{
+	width:20px;
+	height:20px;
+	display: inline-block;
+	background: url("../pic/icon-info.jpg") no-repeat;
+}
